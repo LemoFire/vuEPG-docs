@@ -85,5 +85,7 @@ import { ref } from "vue";
 const epg = useVuEPG();
 
 const top = ref();
+
+epg.move(top.value);
 </script>
 ```
